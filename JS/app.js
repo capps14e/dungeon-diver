@@ -60,11 +60,7 @@ const textNodes = [
     options: [
       {
         text: 'Move right',
-        nextText: -2
-      },
-      {
-        text: 'Move forward',
-        nextText: 3
+        nextText: 99
       },
       {
         text: 'Move left',
@@ -74,18 +70,12 @@ const textNodes = [
 
   },
   {
-    id: -2,
+    id: 99,
     text: 'You take a right down the hall. You see dimly lit bones, cluttering the space. Rats scurry at your presence. A half-moon peaks through a damaged partition in the ceiling.',
     options: [
       {
-        text: 'Move forward',
-      },
-      {
         text: 'Go back',
         nextText: 2
-      },
-      {
-
       }
     ]
 
