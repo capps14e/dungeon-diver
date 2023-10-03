@@ -39,6 +39,11 @@ function selectOption(option) {
   showTextNode(nextTextNodeId);
 }
 
+
+/// YOU DIED id: 10
+
+/// RESTART id: 1
+
 const textNodes = [
   {
     id: 1,
@@ -200,7 +205,7 @@ const textNodes = [
     options: [
       {
         text: 'Go forward',
-        nextText: 12
+        nextText: 10
       }
     ]
   }
