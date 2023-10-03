@@ -13,7 +13,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: dimgray;
+    background-color: rgb(56, 56, 56);
 
 }
 
@@ -31,8 +31,25 @@ body {
         grid-template-columns: repeat(2, auto);
         gap: 10px;
         margin-top: 20px;
-
     }
+
+    .btn {
+        background-color: rgb(96, 139, 173);
+        border: 1px solid rgb(96, 139, 173);
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: aliceblue;
+        outline: none;
+    }
+
+
+.btn:hover {
+    border-color: black
+}
+
+
+
+
 
 
 }
